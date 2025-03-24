@@ -112,6 +112,7 @@ textarea {
 
 .tags-list {
     display: flex;
+    gap: 10px;
 }
 
 .tags-list li {
@@ -236,4 +237,8 @@ textarea {
 
 #image-upload {
     display: none;
+}
+
+.remove-tag {
+    cursor: pointer;
 }

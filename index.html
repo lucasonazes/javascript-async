@@ -51,7 +51,7 @@
             <button id="upload-button">Carregar imagens</button>
             <input type="file" id="image-upload" accept="image/png image/jpg image/jpeg">
             <div class="image-name-container">
-                <p>image_projeto.png</p>
+                <p>project.image.png</p>
                 <img src="./img/close.svg">
             </div>
         </div>
@@ -67,14 +67,10 @@
                     <textarea name="description" id="description"></textarea>
                 </div>
                 <div>
-                    <label for="category">Tags</label>
-                    <input type="text" id="category" name="category" />
+                    <label for="tags-input">Tags</label>
+                    <input type="text" id="tags-input" name="tags-input" />
                 </div>
-                <ul class="tags-list">
-                    <li>
-                        <p>Front-end</p>
-                        <img src="./img/close-black.svg">
-                    </li>
+                <ul class="tags-list" id="tags-list">
                 </ul>
                 <div class="buttons-container">
                     <button class="discard-button">Descartar</button>
